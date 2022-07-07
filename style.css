@@ -1,9 +1,10 @@
-body{
+body {
     margin: 0px;
 }
+
 /* Body header */
 
-#body-header{
+#body-header {
     height: 56vh;
     background-image: url(images/header.jpg);
     background-position: center;
@@ -13,107 +14,126 @@ body{
 }
 
 /* Horizontal Lines */
-.horizontal-list{
+.horizontal-list {
     list-style: none;
     padding-left: 0px;
 }
-.horizontal-list li{
+
+.horizontal-list li {
     display: inline-block;
     margin: 0px 8px 8px 0px;
 }
-.horizontal-list a{
+
+.horizontal-list a {
     color: rgb(2, 0, 0);
-    text-decoration: none;    
+    text-decoration: none;
 }
-.nav-menu li a{
+
+.nav-menu li a {
     transition: color 0.5s, border-bottom 2s;
 }
-.nav-menu li a:hover{
+
+.nav-menu li a:hover {
     color: red;
     border-bottom: 1px solid white;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-#name-social-container{
+
+#name-social-container {
     margin-top: 17vh;
 }
-#my-name{
+
+#my-name {
     font-size: 3rem;
     letter-spacing: 0.1rem;
     color: black;
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
-.social-icon li a img{
+
+.social-icon li a img {
     padding: 10px;
-    font-size: 2rem; 
+    font-size: 2rem;
     border-radius: 50%;
 }
-.social-icon li a img:hover{
+
+.social-icon li a img:hover {
     transition: 0.4s;
     box-shadow: 0px 0px 10px 1px rgba(124, 193, 216, 0.878);
 }
+
 /* Section About Me */
-#about{
-    height:auto;
+#about {
+    height: auto;
     width: 100%;
     position: relative;
-    
+
 }
-#my-profile{
+
+#my-profile {
     height: 12rem;
     width: 12rem;
     margin: auto;
     margin-top: -12vh;
 }
-#my-profile img{
-    height:100%;
+
+#my-profile img {
+    height: 100%;
     width: 100%;
     border-radius: 50%;
     margin: auto;
     border: 5px solid rgb(252, 252, 252);
     box-shadow: 0px 0px 4px 2px rgba(6, 6, 5, 0.4);
-    
+
 }
-#about-para{
+
+#about-para {
     margin: 100px;
     text-align: justify;
 }
-section{
-    width:100%;
+
+section {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 10%;
 
 }
-section:nth-child(2n){
+
+section:nth-child(2n) {
     background-color: white;
 }
-section:nth-child(2n+1){
-    background-color:rgb(216, 216, 215);
+
+section:nth-child(2n+1) {
+    background-color: rgb(216, 216, 215);
 }
 
-.section-heading{
+.section-heading {
     width: auto;
     padding: 20px 10px 10px;
     font-weight: 400;
 
 }
-.section-heading span{
-   font-size: 40px;
+
+.section-heading span {
+    font-size: 40px;
     display: inline-block;
     color: #2857a4;
     padding-top: 10%;
     margin-right: 0.5rem;
 }
-#skills{
+
+#skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.skill-bar{
+
+.skill-bar {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
@@ -122,82 +142,97 @@ section:nth-child(2n+1){
     column-gap: 10%;
 
 }
-.bar{
-    width:8rem;
-    border-radius:20px ;
-    border:2px solid black;
+
+.bar {
+    width: 8rem;
+    border-radius: 20px;
+    border: 2px solid black;
     margin: 2px;
     box-shadow: 2px 2px rgb(66, 63, 63);
 }
-.skill-name span{
+
+.skill-name span {
     padding: 10%;
     color: white;
 }
-.bar>div{
+
+.bar>div {
     padding: 2px;
     margin: 1px;
 }
+
 #c {
-    width:75%;
+    width: 75%;
     height: inherit;
-    border-radius: 20px 0px 0px 20px ;
-    background-color: rgb(6, 90, 90);    
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgb(6, 90, 90);
 }
+
 #java {
-    width:80%;
+    width: 80%;
     height: inherit;
-    border-radius: 20px 0px 0px 20px ;
-    background-color: rgb(196, 52, 157);    
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgb(196, 52, 157);
 }
+
 #Python {
-    width:80%;
+    width: 80%;
     height: inherit;
-    border-radius: 20px 0px 0px 20px ;
-    background-color: rgb(207, 84, 84);    
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgb(207, 84, 84);
 }
+
 #AWS {
-    width:60%;
+    width: 60%;
     height: inherit;
-    border-radius: 20px 0px 0px 20px ;
-    background-color: rgba(56, 160, 82, 0.587);    
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgba(56, 160, 82, 0.587);
 }
+
 #css {
-    width:85%;
+    width: 85%;
     height: inherit;
-    border-radius: 20px 0px 0px 20px ;
-    background-color: rgba(44, 9, 69, 0.587);    
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgba(44, 9, 69, 0.587);
 }
+
 #html {
-    width:85%;
+    width: 85%;
     height: inherit;
-    border-radius: 20px 0px 0px 20px ;
-    background-color: rgba(44, 9, 69, 0.587);    
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgba(44, 9, 69, 0.587);
 }
+
 /* CONTACT DETAILS */
 
-#contact{
-    
-    background-image: linear-gradient(30deg,#2857a4 20%,#403066);
-    color: white ;
+#contact {
+
+    background-image: linear-gradient(30deg, #2857a4 20%, #403066);
+    color: white;
+    padding-bottom: 0%;
 }
-#contact h1 span{
+
+#contact h1 span {
     color: #ffffff;
 }
-#contact-box{
+
+#contact-box {
     display: flex;
     flex-direction: row;
     width: 70%;
     align-items: center;
     /* border: 1px solid black; */
-    
+
 }
-#left{
+
+#left {
     height: inherit;
     text-align: center;
     width: 50%;
     /* border: 1px solid red; */
 }
-#right{
+
+#right {
     margin: 10% 0%;
     width: 50%;
     /* border: 1px solid salmon; */
@@ -206,37 +241,42 @@ section:nth-child(2n+1){
     align-items: center;
     justify-content: center;
 }
-form input{
+
+form input {
     width: 70%;
     border: none;
-    border-bottom: 1px  solid white;
+    border-bottom: 1px solid white;
     background: none;
-    margin:3%;
+    margin: 3%;
 }
 
 
-input:focus{
+input:focus {
     outline: none;
 }
-#submit{
+
+#submit {
     width: 30%;
-    color:white;
+    color: white;
     border: 1px solid #ffffff;
     margin: 10px;
 }
-#contact-details{
+
+#contact-details {
     width: 50%;
     /* border: 1px solid black; */
 }
-.details{
+
+.details {
     margin: 1%;
     width: 70%;
 }
-.details div{
+
+.details div {
     text-align: justify;
     font-size: small;
 }
-#contact #name-social-container{
+
+#contact #name-social-container {
     height: 10px;
 }
-
